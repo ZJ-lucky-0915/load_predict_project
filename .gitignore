@@ -1,0 +1,66 @@
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 运行日志
+log/*
+!log/.gitkeep
+*.log
+
+# 模型与训练检查点
+model/*
+!model/.gitkeep
+*.pkl
+*.joblib
+*.model
+*.ckpt
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# 自动生成的图片与预测结果
+data/fig/*
+!data/fig/.gitkeep
+outputs/
+predictions/
+*.pred.csv
+
+# 本地配置与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+config.local.*
+
+# IDE 和操作系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
